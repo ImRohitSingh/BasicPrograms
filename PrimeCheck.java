@@ -4,7 +4,7 @@ public class PrimeCheck
 	public static void main(String[] args)
 	{
 		int num,i;  //declaring variables
-		boolean flag=true;  // 'true' represents the state of 'num' to being prime
+		boolean flag=true;  // 'true' represents the state of 'num' of being prime
 		Scanner obj=new Scanner(System.in);  // creating reference to accept input from keyboard
 		System.out.println("Enter a number: ");
 		num=obj.nextInt();     // accepting input
