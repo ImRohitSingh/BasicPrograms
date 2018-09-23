@@ -1,8 +1,6 @@
-import static java.lang.System.out;
-public class Bird 
+
+interface Bird 
 {
-	void flyingStatus()
-	{
-		out.println("Can fly!");
-	}
+	int def = 10;
+	void flyingStatus();
 }
