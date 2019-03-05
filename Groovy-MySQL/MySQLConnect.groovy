@@ -9,8 +9,8 @@ class MySQLConnect
 	{
 		final def JDBC_DRIVER = "com.mysql.jdbc.Driver";
 		final def JDBC_URL = "jdbc:mysql://localhost:3306/";
-		final def DB_NAME = "meritedge";  // name of your database
-		final def USERNAME = "root";
+		final def DB_NAME = "_______";  // name of your database
+		final def USERNAME = "_____"; // your username
 		final def PASSWORD = "";
 		def choice, check = false, slNo, topic, status, date, query;
 
