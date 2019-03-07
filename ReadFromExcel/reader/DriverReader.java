@@ -9,7 +9,7 @@ public class DriverReader
 	public static void main(String args[]) throws IOException, BiffException 
 	{
 		ReadExcel excelReader = new ReadExcel();
-		excelReader.setInputFileLocation("C:\\Users\\RS067558\\Documents\\BookDemo.xls");
+		excelReader.setInputFileLocation("C:\\Users\\RS\\Documents\\BookDemo.xls");
 		excelReader.startReading();
 	}
 
